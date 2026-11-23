@@ -7,18 +7,22 @@ description: Mine GMV-ranked TikTok Shop content case libraries, extract evidenc
 
 Use the case library as evidence, not decoration. First build a compact learning pack from relevant GMV-performing cases; only then create new content.
 
-## Case sources (public edition)
+## Live case sources
 
-Ask the user to provide an authorized case library, public content links, or an Excel/CSV export. This skill contains methods and prompts, not a built-in GMV dataset or permission to access private libraries.
+These two source views are maintained continuously. At the start of each case-mining request, open the live view and read its current records rather than relying on a previously copied snapshot:
 
-1. **Industry-specific library**: home textiles, home goods and kitchen cases, classified by hook, atmosphere, feature demonstration and before/after proof.
-2. **Cross-category library**: adjacent categories and transferable creative mechanisms.
+1. **日用家纺行业专属榜单** — prioritize for home textiles, home goods and kitchen cases, including first-screen copy hooks, lifestyle/atmosphere, feature demonstration and before/after proof:
+   `https://bytedance.sg.larkoffice.com/base/HItOb9EmmarvbjsdvbTlPkQHgHb?table=tblHzigDo2GfiEgK&view=vewUg1CAvT`
+2. **全品类优质图文榜单（持续更新）** — use for adjacent categories, new cases and transferable creative mechanisms:
+   `https://bytedance.sg.larkoffice.com/base/YrsUb0baMa6OpRsSdXxl01wLgWh?table=tbl5onwbm2IeHpPV&view=vewUCAwef1`
+
+The links point to live views, so later updates by the maintainer are available on the next invocation without republishing the skill. The skill does not perform background synchronization or cache the source records. Access still depends on the current user's account permissions. If access is blocked, ask for an authorized Excel/CSV export or pasted filtered view and do not claim to have analyzed inaccessible rows.
 
 If no cases are available, explain that evidence-backed mining cannot yet be completed. Product briefing may proceed from verified product facts at the user's request; do not claim the AI has learned inaccessible examples.
 
 For daily home-textile requests, search the industry-specific library first, then use the general library to add fresh or cross-category mechanisms. For other industries, start with the general library. When combining results, keep the source and GMV evidence attached to every case and do not merge duplicate records as independent evidence.
 
-Treat both libraries as read-only unless the user explicitly asks to edit them. If access is blocked, ask for an Excel/CSV export or pasted filtered view. Do not claim to have analyzed inaccessible rows.
+Treat both libraries as read-only unless the user explicitly asks to edit them.
 
 ## Route the request
 
